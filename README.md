@@ -17,7 +17,7 @@
 ## Estructura del proyecto
 
 ```text
-aplicacion_web_educativa/
+api_geolocolizacion/
 │── app.py
 │── templates/
 │   ├── base.html
@@ -50,4 +50,5 @@ El proyecto sigue la convención recomendada por Flask, separando:
 - Backend (app.py)
 - Vistas HTML (templates)
 - Archivos estáticos como imágenes y hojas de estilos (static)
+
 
