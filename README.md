@@ -44,9 +44,10 @@ para aislar las dependencias de Python.
 Se utilizó un entorno virtual para instalar Flask y mantener el proyecto organizado.
 Las dependencias se gestionan mediante Python y pip.
 
-Se utilizao la api OpenStreetMap para realizar la busqueda de las gasolineras
+Se utilizó la API OpenStreetMap para realizar la busqueda de las gasolineras
 
 El proyecto sigue la convención recomendada por Flask, separando:
 - Backend (app.py)
 - Vistas HTML (templates)
 - Archivos estáticos como imágenes y hojas de estilos (static)
+
