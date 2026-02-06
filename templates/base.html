@@ -6,7 +6,7 @@
      <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>{% block title %}{% endblock title %}</title>
-    <style>{% block style %}{% endblock style %}</style>
+    {% block extra_css %}{% endblock extra_css %}
 </head>
 <body>
     {% block content %}
